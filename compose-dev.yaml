@@ -1,0 +1,6 @@
+services:
+  vscodedevcontainertest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
